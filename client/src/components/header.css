@@ -1,0 +1,16 @@
+.br-logo
+{
+    margin-left: 1%;
+};
+.nav-lnk
+{
+    display: flex;
+    justify-content: space-around;
+};
+
+@media screen and (max-width: 768px) {
+    .nav-lnk{
+        position: fixed;
+        background-color: aqua;
+    }
+}
